@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}"/>
+    <title>🐾Here you are</title>
+</head>
+<body>
+    <div id="header">
+        <p>🐶 Dog Breed Detection 🐶</p>
+        <p id="sub-header">Send me your dogs' photo😉</p>
+    </div>
+    <div class="file-upload">
+        <a href="/"><button class="file-upload-btn" type="submit">Try Again</button></a>
+        <div class="image-upload-wrap" style="display: none;">
+        <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" name="my_image" />
+        <div class="drag-text">
+            <h3>Drag and drop a file or select add Image</h3>
+        </div>
+        </div>
+        <div class="file-upload-content" style="display:block;">
+        <img class="file-upload-image" src="{{img_path}}" alt="your image" />
+        <div class="image-title-wrap">
+            <p id="label-container">{{prediction}}</p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
