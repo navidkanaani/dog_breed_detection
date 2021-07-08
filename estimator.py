@@ -1,9 +1,6 @@
 # Import requirements
 import pandas as pd
 import numpy as np
-
-from IPython.display import Image
-
 import tensorflow_hub as hub
 import tensorflow as tf
 
