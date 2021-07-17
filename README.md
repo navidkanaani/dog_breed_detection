@@ -13,4 +13,6 @@ https://www.kaggle.com/c/dog-breed-identification/overview
 The model I used is [MobileNet_v2](https://tfhub.dev/google/imagenet/mobilenet_v2_130_224/classification/4)
 
 ## Installation
-Run `app.py` on your host (could be local).
+* Install requirements.
+
+* Run `app.py` on your host (could be local).
