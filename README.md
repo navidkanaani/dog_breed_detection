@@ -14,6 +14,12 @@ The model I used is [MobileNet_v2](https://tfhub.dev/google/imagenet/mobilenet_v
 
 ## Installation
 * Install requirements.
+```bash
+pip3 install -r requirements.txt.
+```
 
-* Run `python3 app.py`
+* Run 
+```bash
+python3 app.py
+```
 * Open *localhost* on your browser.
